@@ -1,0 +1,38 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.gb_g
+{
+    padding-left: 0;
+}
+
+#conteneur
+{
+    display: flex; 
+    justify-content: right
+    border: 2px solid #444;
+}
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+.element: nth-child(1)
+{
+    background-color: orange;
+}
+.element: nth-child(2)
+{
+    background-color: blue;
+}
+.element: nth-child(3)
+{
+    background-color: #ad6;
+}
